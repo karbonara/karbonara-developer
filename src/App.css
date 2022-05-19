@@ -1,0 +1,147 @@
+.link-main {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  width: 70%;
+}
+
+.list-link {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+}
+
+.link-main h1 {
+  color: #F2F2F2;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.list-link a {
+  display: flex;
+  padding: 5px;
+  color: #F2F2F2;
+}
+
+.home {
+  width: 90vw;
+  margin:  0 auto;
+  padding: 142px 0 0 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.home h3 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #686868;
+}
+
+.home h1 {
+  width: 470px;
+  margin: 0;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 54px;
+  color: #F2F2F2;
+}
+
+.home__wrapper {
+  position: relative;
+}
+
+.home__wrapper::before {
+  position: absolute;
+  content: '';
+  width: 178.25px;
+  height: 178.25px;
+  top: -40px;
+  left: -109px;
+  z-index: -10;
+  background-image: url('https://i.imgur.com/79br1MR.png');
+}
+
+.link-icon-social {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-icon-social li {
+  padding: 10px 0;
+}
+
+.about {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.about h1 {
+  color: #F2F2F2;
+}
+
+.about h2 {
+  color: #F2F2F2;
+}
+
+.about__list-items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.about__list-items li {
+  padding: 4px;
+  display: flex;
+  color: #F2F2F2;
+  font-weight: 800;
+}
+
+.about__link {
+  color: #F2F2F2;
+}
+
+.error h1 {
+  padding: 5% 0 0 0;
+  font-size: 82px;
+  text-align: center;
+  color: #F2F2F2;
+}
+
+.work {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.work img {
+  margin: 0 0 20px 0;
+}
+
+footer {
+  padding: 120px 0;
+  text-align: center;
+}
