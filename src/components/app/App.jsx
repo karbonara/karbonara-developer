@@ -1,9 +1,9 @@
 import About from '../../pages/about/about';
 import { Routes, Route } from 'react-router-dom';
-import Home from '../Home';
+import Home from '../../pages/home/home';
 import Layout from '../layout/layout';
 import Work from '../../pages/Work/work';
-import Contact from '../../pages/contact/contact';
+import Stack from '../../pages/stack/stack';
 import ErrorPage from '../../pages/error-page/error-page';
 import '../../App.css';
 
@@ -15,7 +15,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/work" element={<Work />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/stack" element={<Stack />} />
                 </Route>
                 <Route path="*" element={<ErrorPage />} />
             </Routes>

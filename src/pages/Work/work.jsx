@@ -6,6 +6,9 @@ function Work() {
                 <a href="https://superstasbox.ru/">
                     <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
                 </a>
+                <a href="https://pizza-react-app.vercel.app/">
+                    <img width={650} src="https://i.imgur.com/OyLtCiF.png" alt="work" />
+                </a>
                 <a href="https://karbonara.github.io/get-smm/index.html#">
                     <img width={650} src="https://i.imgur.com/OyLtCiF.png" alt="work" />
                 </a>

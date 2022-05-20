@@ -1,6 +1,8 @@
+import styles from './link-icon-social.module.scss';
+
 function LinkIconSocial() {
     return (
-        <ul className="link-icon-social">
+        <ul className={styles.link__icon_social}>
             <li>
                 <a href="/"><img src="https://i.imgur.com/GDQEMNZ.png" alt="logo" /></a>
             </li>
@@ -10,7 +12,7 @@ function LinkIconSocial() {
             <li>
                 <a href="https://t.me/tupakarbonara"><img src="https://i.imgur.com/4V5qGZW.png" alt="logo" /></a>
             </li>
-        </ul>
+        </ul >
     );
 }
 

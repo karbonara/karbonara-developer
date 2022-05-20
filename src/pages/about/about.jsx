@@ -11,9 +11,9 @@ function About() {
                     <li key={list}>{list}</li>
                 ))} */}
             </ul>
-            <h2>Так же, ссылочка на резюме *<a className="about__link"
+            {/* <h2>Так же, ссылочка на резюме *<a className="about__link"
                 target={'https://hh.ru/resume/157b5454ff07c58f750039ed1f62734658586e'}
-                href='https://hh.ru/resume/157b5454ff07c58f750039ed1f62734658586e'>клик</a>*</h2>
+                href='https://hh.ru/resume/157b5454ff07c58f750039ed1f62734658586e'>клик</a>*</h2> */}
         </div>
     );
 }

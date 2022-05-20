@@ -1,0 +1,16 @@
+.slider__wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slider__main {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+.slider {
+    img {
+        margin: 0 auto;
+    }
+}
