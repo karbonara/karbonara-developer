@@ -3,7 +3,7 @@
 function About() {
 
     return (
-        <div className="about">
+        <div className="about pt-3">
             <h1>Привет! Меня зовут Артем</h1>
             <h2>Вот немного моих технических навыков</h2>
             <ul className="about__list-items">
