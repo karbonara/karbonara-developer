@@ -1,0 +1,45 @@
+.menu {
+    display: none;
+    @media (max-width: 600px) {
+        display: block;
+    }
+
+}
+.nav__wrapper {
+    width: 98vw;
+    height: 100vh;
+    background: #ffffff;
+    transform: translateY(-52px);
+    & ul {
+        padding-top: 54px;
+    }
+    & li {
+        padding: 6px;
+        text-align: center;
+        font-size: 22px;
+    }
+}
+.button {
+    position: absolute;
+    right: 8px;
+    top: 15px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+}
+.button_modal {
+    position: absolute;
+    right: 8px;
+    top: 15px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+}

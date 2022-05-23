@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import MenuMobile from '../menu-mobile/menu-mobile';
 import styles from './header.module.scss';
 
 function Header() {
@@ -13,6 +14,7 @@ function Header() {
                     <li><Link to="stack">Мой стек</Link></li>
                 </ul>
             </nav>
+            <MenuMobile />
         </div>
     );
 }
