@@ -3,6 +3,7 @@ import WorkMain from '../../components/work-main/work-main';
 import styles from './home.module.scss';
 import { Spring, animated } from 'react-spring';
 import Tool from '../../components/tool/tool';
+import IntroWhat from '../../components/intro-what/intro-what';
 
 function Home() {
 
@@ -46,7 +47,7 @@ function Home() {
                 </div>
             </div>
             <WorkMain />
-            <section>
+            {/* <section>
                 <h1 className="text-center text-white font-bold text-4xl">Мой стек технологий</h1>
                 <ul className="w-5/12 py-5 mx-auto text-white font-bold text-xl">
                     <li>JavaScript / TypeScript</li>
@@ -63,7 +64,8 @@ function Home() {
                     <li>Accessibility</li>
                     <li>Figma / Adobe Photoshop / Sketch</li>
                 </ul>
-            </section>
+            </section> */}
+            <IntroWhat />
             <Tool />
         </>
     );
