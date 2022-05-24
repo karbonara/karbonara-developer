@@ -6,10 +6,8 @@ import Tool from '../../components/tool/tool';
 import IntroWhat from '../../components/intro-what/intro-what';
 
 function Home() {
-
     return (
         <>
-
             <div className={styles.home}>
                 <LinkIconSocial />
                 <div className={styles.home__wrapper}>
@@ -47,24 +45,6 @@ function Home() {
                 </div>
             </div>
             <WorkMain />
-            {/* <section>
-                <h1 className="text-center text-white font-bold text-4xl">Мой стек технологий</h1>
-                <ul className="w-5/12 py-5 mx-auto text-white font-bold text-xl">
-                    <li>JavaScript / TypeScript</li>
-                    <li>React</li>
-                    <li>Redux / Redux Toolkit</li>
-                    <li>SCSS / Styled-Components / CSS Modules React</li>
-                    <li>Material UI / Tailwind Css / Bootstrap</li>
-                    <li>Webpack / Gulp</li>
-                    <li>Git / GitHub / GitLab</li>
-                    <li>JSON / Axios</li>
-                    <li>BEM</li>
-                    <li>Leaflet.js</li>
-                    <li>ESLint</li>
-                    <li>Accessibility</li>
-                    <li>Figma / Adobe Photoshop / Sketch</li>
-                </ul>
-            </section> */}
             <IntroWhat />
             <Tool />
         </>
