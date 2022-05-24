@@ -12,5 +12,11 @@
 .slider {
     img {
         margin: 0 auto;
+        height: 217px;
+    }
+    @media (max-width: 600px) {
+        img {
+            height: auto;
+        }
     }
 }

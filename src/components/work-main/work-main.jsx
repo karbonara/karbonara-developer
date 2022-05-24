@@ -44,19 +44,19 @@ function WorkMain() {
                     <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
-                    <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
+                    <img width={650} src="https://i.imgur.com/qOUZui0.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
-                    <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
+                    <img width={650} src="https://i.imgur.com/FrLEsSS.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
-                    <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
+                    <img width={650} src="https://i.imgur.com/3raysZm.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
-                    <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
+                    <img width={650} src="https://i.imgur.com/oB9zfIE.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
-                    <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
+                    <img width={650} src="https://i.imgur.com/fzhtwj3.png" alt="work" />
                 </div>
             </Slider>
         </section>
