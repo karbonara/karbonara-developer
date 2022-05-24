@@ -2,6 +2,7 @@ import LinkIconSocial from '../../components/link-icon-social/link-icon-social';
 import WorkMain from '../../components/work-main/work-main';
 import styles from './home.module.scss';
 import { Spring, animated } from 'react-spring';
+import Tool from '../../components/tool/tool';
 
 function Home() {
 
@@ -63,6 +64,7 @@ function Home() {
                     <li>Figma / Adobe Photoshop / Sketch</li>
                 </ul>
             </section>
+            <Tool />
         </>
     );
 }
