@@ -1,7 +1,9 @@
-.work {
+.work__main {
     width: 90vw;
     margin: 0 auto;
     padding: 130px 0;
+}
+.work {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

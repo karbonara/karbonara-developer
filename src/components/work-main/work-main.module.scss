@@ -10,9 +10,10 @@
     padding: 32px 0;
 }
 .slider {
+    outline: none;
     img {
         margin: 0 auto;
-        height: 217px;
+        outline: none;
     }
     @media (max-width: 600px) {
         img {

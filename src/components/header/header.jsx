@@ -9,7 +9,7 @@ function Header() {
             <nav className={styles.nav}>
                 <ul className={styles.list__link}>
                     <li><Link to="/">Главная</Link>{" "}</li>
-                    <li><Link to="about">Обо мне</Link></li>
+                    {/* <li><Link to="about">Обо мне</Link></li> */}
                     <li><Link to="work">Мои работы</Link></li>
                     <li><Link to="stack">Мой стек</Link></li>
                 </ul>

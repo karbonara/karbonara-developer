@@ -41,7 +41,6 @@ function Home() {
                             </animated.div>
                         )}
                     </Spring>
-
                 </div>
             </div>
             <WorkMain />

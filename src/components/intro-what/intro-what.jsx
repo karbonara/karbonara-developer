@@ -1,8 +1,11 @@
+import { motion } from 'framer-motion';
 import styles from './intro-what.module.scss';
 
 function IntroWhat() {
     return (
-        <section className={styles.intro__what}>
+        <motion.section
+            className={styles.intro__what}
+        >
             <h1 className='text-center text-white font-bold text-4xl mb-6'>Что я делаю?</h1>
             <p className='text-white font-bold text-xl my-4'>Вёрстку и фронтенд — от простых страничек до больших сервисов.</p>
             <div className={styles.intro__what_item}>
@@ -45,7 +48,7 @@ function IntroWhat() {
                     </li>
                 </ul>
             </div>
-        </section>
+        </motion.section>
     );
 }
 

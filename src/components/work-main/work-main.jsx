@@ -9,7 +9,7 @@ function WorkMain() {
         arrows: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [
             {
@@ -41,7 +41,7 @@ function WorkMain() {
             <h1 className="p-4 text-center text-white font-bold text-4xl">Мои работы</h1>
             <Slider {...settings} className={styles.slider__main}>
                 <div className={styles.slider}>
-                    <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
+                    <img width={650} src="https://i.imgur.com/3raysZm.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
                     <img width={650} src="https://i.imgur.com/qOUZui0.png" alt="work" />
@@ -50,7 +50,7 @@ function WorkMain() {
                     <img width={650} src="https://i.imgur.com/FrLEsSS.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
-                    <img width={650} src="https://i.imgur.com/3raysZm.png" alt="work" />
+                    <img width={650} src="https://i.imgur.com/oawdTt8.png" alt="work" />
                 </div>
                 <div className={styles.slider}>
                     <img width={650} src="https://i.imgur.com/oB9zfIE.png" alt="work" />
