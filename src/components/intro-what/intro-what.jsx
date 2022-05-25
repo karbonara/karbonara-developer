@@ -14,7 +14,7 @@ const textAnimation = {
 }
 const blockAnimationLeft = {
     hidden: {
-        x: -150,
+        x: -50,
         opacity: 0,
     },
     visible: custom => ({
@@ -25,7 +25,7 @@ const blockAnimationLeft = {
 }
 const blockAnimationRight = {
     hidden: {
-        x: 150,
+        x: 50,
         opacity: 0,
     },
     visible: custom => ({
