@@ -34,6 +34,7 @@
         }
         & li:hover {
             border-color: #fff;
+            transform: scale(1.06);
         }
     }
     @media (max-width: 900px) {

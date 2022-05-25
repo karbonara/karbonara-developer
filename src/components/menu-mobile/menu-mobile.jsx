@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './menu-mobile.module.scss';
-import { Spring, animated, Transition } from 'react-spring';
+import { Spring, animated } from 'react-spring';
 import { useRef } from 'react';
 
 function MenuMobile() {
@@ -42,7 +42,7 @@ function MenuMobile() {
                                     </button>
                                     <ul>
                                         <li><Link to="/">Главная</Link>{" "}</li>
-                                        <li><Link to="about">Обо мне</Link></li>
+                                        {/* <li><Link to="about">Обо мне</Link></li> */}
                                         <li><Link to="work">Мои работы</Link></li>
                                         <li><Link to="stack">Мой стек</Link></li>
                                     </ul>

@@ -9,11 +9,6 @@ function Layout() {
             <main>
                 <Outlet />
             </main>
-            <footer>
-                <section>
-                    <img className='m-auto' width={36} src="https://i.imgur.com/NfkyvEb.png" alt="" />
-                </section>
-            </footer>
         </>
     );
 };

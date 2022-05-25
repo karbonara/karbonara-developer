@@ -12,7 +12,6 @@ function Home() {
                 <LinkIconSocial />
                 <div className={styles.home__wrapper}>
                     <Spring
-
                         from={{ opacity: 0 }}
                         to={[
                             { opacity: 1 },
@@ -27,7 +26,6 @@ function Home() {
                         )}
                     </Spring>
                     <Spring
-
                         from={{ opacity: 0 }}
                         to={[
                             { opacity: 1 },

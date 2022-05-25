@@ -9,6 +9,10 @@
     flex-wrap: wrap;
     & a {
         margin: 14px 0;
+        transition: 0.3s;
+        &:hover {
+            transform: scale(1.01);
+        }
     }
     & img {
         width: 650px;

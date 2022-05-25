@@ -10,11 +10,13 @@ function Stack() {
                 <li>Redux / Redux Toolkit</li>
                 <li>SCSS / Styled-Components / CSS Modules React</li>
                 <li>Material UI / Tailwind Css / Bootstrap</li>
+                <li>HTML / CSS </li>
                 <li>Webpack / Gulp</li>
                 <li>Git / GitHub / GitLab</li>
                 <li>JSON / Axios</li>
                 <li>BEM</li>
                 <li>Leaflet.js</li>
+                <li>Gsap / Framer Motion React / React Spring / AOS / animate.style</li>
                 <li>ESLint</li>
                 <li>Accessibility</li>
                 <li>Figma / Adobe Photoshop / Sketch</li>
