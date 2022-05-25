@@ -9,7 +9,7 @@ const textAnimation = {
     visible: custom => ({
         y: 0,
         opacity: 1,
-        transition: { delay: custom * 0.2 },
+        transition: { ease: "easeOut", delay: custom * 0.2 },
     }),
 }
 const blockAnimation = {
@@ -18,7 +18,7 @@ const blockAnimation = {
     },
     visible: custom => ({
         opacity: 1,
-        transition: { delay: custom * 0.2 },
+        transition: { ease: "easeOut", delay: custom * 0.2 },
     }),
 }
 

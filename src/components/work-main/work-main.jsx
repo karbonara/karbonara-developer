@@ -45,7 +45,7 @@ function WorkMain() {
         visible: custom => ({
             y: 0,
             opacity: 1,
-            transition: { delay: custom * 0.3 },
+            transition: { ease: "easeOut", delay: custom * 0.3 },
         }),
     }
 

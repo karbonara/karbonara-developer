@@ -9,7 +9,7 @@ const textAnimation = {
     visible: custom => ({
         y: 0,
         opacity: 1,
-        transition: { delay: custom * 0.3 },
+        transition: { ease: "easeOut", delay: custom * 0.3 },
     }),
 }
 const blockAnimationLeft = {
@@ -20,7 +20,7 @@ const blockAnimationLeft = {
     visible: custom => ({
         x: 0,
         opacity: 1,
-        transition: { delay: custom * 0.3 },
+        transition: { ease: "easeOut", delay: custom * 0.3 },
     }),
 }
 const blockAnimationRight = {
@@ -31,7 +31,7 @@ const blockAnimationRight = {
     visible: custom => ({
         x: 0,
         opacity: 1,
-        transition: { delay: custom * 0.3 },
+        transition: { ease: "easeOut", delay: custom * 0.3 },
     }),
 }
 const blockAnimationOpacity = {
@@ -40,7 +40,7 @@ const blockAnimationOpacity = {
     },
     visible: custom => ({
         opacity: 1,
-        transition: { delay: custom * 0.3 },
+        transition: { ease: "easeOut", delay: custom * 0.3 },
     }),
 }
 
